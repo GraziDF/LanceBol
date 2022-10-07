@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telalogin2">
+
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="41dp"
+        android:text="Email ou Telefone"
+        app:layout_constraintBottom_toTopOf="@+id/senha1"
+        app:layout_constraintEnd_toEndOf="@+id/senha1"
+        app:layout_constraintStart_toStartOf="@+id/senha1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/senha1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="38dp"
+        android:text="Senha"
+        app:layout_constraintBottom_toTopOf="@+id/entrar1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email1" />
+
+    <Button
+        android:id="@+id/entrar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="@color/gren4"
+        android:text="Entrar"
+        app:layout_constraintBottom_toTopOf="@+id/esqueci"
+        app:layout_constraintStart_toStartOf="@+id/esqueci"
+        app:layout_constraintTop_toBottomOf="@+id/senha1" />
+
+    <TextView
+        android:id="@+id/esqueci"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="331dp"
+        android:backgroundTint="@color/black"
+        android:text="Esqueci a senha"
+        app:layout_constraintBottom_toTopOf="@+id/voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entrar1" />
+
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginBottom="101dp"
+        android:backgroundTint="@color/gren4"
+        android:text="voltar"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/esqueci" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

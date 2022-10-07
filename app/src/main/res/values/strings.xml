@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">LanceBol</string>
+    <string name="todo3">todo3</string>
+    <string name="todo1">todo1</string>
+    <string name="todo2">todo2</string>
+    <string name="registre_sua_aposta">Registre sua aposta</string>
+    <string name="digite">digite</string>
+    <string name="seja_bem_vindo">seja_bem_vindo</string>
+    <string name="fa_a_sua_aposta">Faça sua Aposta</string>
+    <string name="bem_vindo_ao_lancebol">Bem vindo ao LanceBol</string>
+    <string name="registrar">Registrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="fazer_login">Fazer login</string>
+    <string name="login">login</string>
+    <string name="email_ou_telefone">Email ou Telefone</string>
+    <string name="email">email</string>
+    <string name="_1_rodada_quinta_feira_24_11">1ª rodada | Quinta-feira (24/11)</string>
+    <string name="_2_rodada_quinta_feira_24_11">_2_rodada_quinta_feira_24_11</string>
+    <string name="_2_rodada_segunda_feira_28_11">_2_rodada_segunda_feira_28_11</string>
+    <string name="_3_rodada_sexta_feira_02_12">_3_rodada_sexta-feira_02_12</string>
+    <string name="sua_aposta">Sua Aposta</string>
+    <string name="adicionar_participantes">Adicionar Participantes</string>
+    <string name="valor_da_aposta">Valor da aposta</string>
+    <string name="apostar_agora">Apostar agora</string>
+    <string name="n_mero_do_cart_o">Número do Cartão</string>
+    <string name="senha">Senha</string>
+    <string name="apostar">Apostar</string>
+    <string name="apostar_1">apostar 1</string>
+    <string name="aposta_2">Aposta 2</string>
+    <string name="aposta_3">Aposta 3</string>
+    <string name="aposta_1">aposta_1</string>
+    <string name="cart_o">Cartão</string>
+    <string name="placar">Placar</string>
+</resources>
